@@ -10,8 +10,8 @@ export default async function Referrals() {
 
     return (
         <ul>
-            {referrals?.map((ref) => (
-                <li>{ref}</li>
+            {referrals?.map(ref => (
+                <li key="ref">{ref}</li>
             ))}
         </ul>
     )
